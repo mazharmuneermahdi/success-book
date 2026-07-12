@@ -251,6 +251,26 @@ nav a:hover{
 
     transition:.5s;
 
+    overflow:hidden;
+
+    padding:0;
+
+}
+
+.book-cover-image{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+    object-position:center;
+
+    display:block;
+
+    background:#fff;
+
 }
 
 .book-inner:hover{
@@ -741,6 +761,8 @@ section h2{
     height:100%;
 
     object-fit:cover;
+
+    object-position:center;
 
     display:block;
 
