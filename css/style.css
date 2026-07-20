@@ -775,11 +775,11 @@ nav a:hover{
 
 .btn-book.secondary{
 
-    background:rgba(255,255,255,.08);
+    background:linear-gradient(135deg,#fef3c7,#eab308 65%);
 
-    color:#fff;
+    color:#081826;
 
-    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 16px 35px rgba(234,179,8,.25);
 
 }
 
