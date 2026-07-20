@@ -213,47 +213,49 @@ nav a:hover{
 
     justify-content:center;
 
-}
-
-.book{
-
-    perspective:1200px;
-
-}
-
-.book-inner{
-
-    width:min(380px, 88vw);
-
-    aspect-ratio:3 / 4;
-
-    border-radius:18px;
-
-    background:
-
-    linear-gradient(145deg,#fffdf7,#ead79e);
-
-    border:3px solid #D4AF37;
-
-    display:flex;
-
-    justify-content:center;
-
     align-items:center;
 
-    flex-direction:column;
+}
+
+.book-showcase{
+
+    display:grid;
+
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+
+    gap:24px;
+
+    width:min(660px, 92vw);
+
+}
+
+.book-hero-card{
+
+    background:rgba(255,255,255,0.06);
+
+    border:1px solid rgba(212,175,55,.35);
+
+    border-radius:22px;
+
+    padding:20px;
 
     text-align:center;
 
-    box-shadow:
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
 
-    0 30px 60px rgba(0,0,0,.45);
+}
 
-    transition:.5s;
+.book-hero-card h3{
 
-    overflow:hidden;
+    margin:16px 0 14px;
 
-    padding:18px;
+    font-size:22px;
+
+    color:#fff;
+
+    font-family:'Playfair Display',serif;
+
+    line-height:1.35;
 
 }
 
@@ -265,45 +267,45 @@ nav a:hover{
     object-position:center;
     max-width:100%;
     max-height:100%;
-    border-radius:10px;
+    border-radius:12px;
     background:#fff;
 }
 
-.book-inner:hover{
+.book-hero-link{
 
-    transform:
+    display:inline-flex;
 
-    rotateY(-18deg)
+    align-items:center;
 
-    rotateX(4deg)
+    justify-content:center;
 
-    translateY(-12px);
+    padding:12px 18px;
 
-}
+    border-radius:999px;
 
-.book-inner{
+    background:linear-gradient(135deg,#f7d368,#d4af37 65%);
 
-    font-size:80px;
+    color:#081826;
 
-    color:#D4AF37;
+    font-weight:700;
 
-}
+    text-decoration:none;
 
-.book-inner h3{
-
-    font-size:30px;
-
-    margin-top:25px;
-
-    font-family:'Playfair Display',serif;
+    transition:transform .3s ease, box-shadow .3s ease;
 
 }
 
-.book-inner p{
+.book-hero-link:hover{
 
-    color:#ddd;
+    transform:translateY(-2px);
 
-    margin-top:8px;
+    box-shadow:0 12px 24px rgba(212,175,55,.28);
+
+}
+
+.book-hero-link.secondary{
+
+    background:linear-gradient(135deg,#fef3c7,#eab308);
 
 }
 
@@ -523,7 +525,13 @@ nav a:hover{
 
 .read-book-cta{
 
-    text-align:center;
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:16px;
 
     margin-bottom:40px;
 
@@ -537,7 +545,7 @@ nav a:hover{
 
     justify-content:center;
 
-    padding:18px 40px;
+    padding:16px 32px;
 
     border-radius:50px;
 
