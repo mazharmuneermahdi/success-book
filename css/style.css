@@ -841,13 +841,21 @@ section h2{
 
     font-size:18px;
 
-    margin-bottom:70px;
+    margin-bottom:30px;
+
+}
+
+.button-center{
+
+    text-align:center;
+
+    margin-bottom:60px;
 
 }
 
 .btn-read-now{
 
-    display:flex;
+    display:inline-flex;
 
     align-items:center;
 
@@ -870,10 +878,6 @@ section h2{
     box-shadow:0 22px 50px rgba(212,175,55,.35);
 
     transition:transform .3s ease, box-shadow .3s ease, filter .3s ease;
-
-    margin:0 auto 60px;
-
-    width:fit-content;
 
 }
 
