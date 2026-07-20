@@ -845,6 +845,46 @@ section h2{
 
 }
 
+.btn-read-now{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 32px;
+
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#f7d368,#d4af37 65%);
+
+    color:#081826;
+
+    font-weight:800;
+
+    font-size:18px;
+
+    text-decoration:none;
+
+    box-shadow:0 22px 50px rgba(212,175,55,.35);
+
+    transition:transform .3s ease, box-shadow .3s ease, filter .3s ease;
+
+    margin-bottom:60px;
+
+}
+
+.btn-read-now:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 30px 65px rgba(212,175,55,.45);
+
+    filter:brightness(1.05);
+
+}
+
 /* ---------- CARDS ---------- */
 
 .cards{
